@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "swipe_profiles",
+  "info": {
+    "name": "swipe profile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/swipe-profile",
+      "handler": "swipe-profile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/swipe-profile",
+      "handler": "swipe-profile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/swipe-profile",
+      "handler": "swipe-profile.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

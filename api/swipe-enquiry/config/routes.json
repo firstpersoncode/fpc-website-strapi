@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/swipe-enquiry",
+      "handler": "swipe-enquiry.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/swipe-enquiry",
+      "handler": "swipe-enquiry.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/swipe-enquiry",
+      "handler": "swipe-enquiry.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
